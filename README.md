@@ -21,7 +21,7 @@ the "Scaling" button is used to more accurately represent an Actor's Scale, whic
 
 # "What is Place n Erase? Is it like an Editor?"
 
-"Place n Erase" lets you place blocks, THIS DOES NOT SAVE INTO THE YAML, If you placed one and then click on it, It displays its coordinates In-Game, you can use that to more accurately Visualize where to put an Actor.
+"Place n Erase" lets you place blocks, THIS DOES NOT SAVE INTO THE YAML, If you placed one and then click on it, It displays its coordinates In-Game, you can use that to more accurately Visualize where to put an Actor, You can right click on a Place n Erase Block to Erase it.
 
 # "What is Reset 'Zoom' and 'Reset Camera'?"
 
