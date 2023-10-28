@@ -30,3 +30,6 @@ Reset Zoom and Reset Camera Resets the Zoom and Camera Translation.
 # "What does Rand Color do and why does it Exist?"
 
 Rand Color Randomizes the color for the Ground/Walls, This option exists because some backgrounds are Considered walls, and therefore shouldn't be the same color, The colors are randomized and sometimes happen to be Similar, hence the button's Existance.
+
+# "The Camera is Too Slow!!"
+Hold Shift whilst moving or zooming the camera to speed it up by 2x
