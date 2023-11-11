@@ -1,0 +1,17 @@
+        - AreaHash: !u 2992145499
+            Gyaml: BlockRengaLight
+            Hash: !ul 13261139512070422632
+            Layer: PlayArea1
+            Name: Course001_Main.muunt/obj945
+            Rotate:
+              - 0.00000
+              - 0.00000
+              - 0.00000
+            Scale:
+                  - 1.00000
+              - 1.00000
+              - 1.00000
+            Translate:
+              - 8.50000
+              - 3.50000
+              - 0.00000

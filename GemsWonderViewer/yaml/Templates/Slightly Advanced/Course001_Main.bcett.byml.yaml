@@ -1,0 +1,494 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  Actors:
+    - AreaHash: !u 2992145499
+      Dynamic:
+        InitDir: !l 4
+        IsForceStartPoint: false
+        LocatorName: 
+        PlacementPattern: !l 0
+        ScatteredPlayerNo: !l -1
+        StartAction: !l 0
+      Gyaml: PlayerLocator
+      Hash: !ul 12948752719743077952
+      Layer: PlayArea1
+      Name: Course001_Main.muunt/obj0
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 5.00000
+        - -1.00000
+        - 0.00000
+    - AreaHash: !u 2992145499
+      Dynamic:
+        LRWidePat: !l 0
+        PreferredDir: !l 0
+        ScrollUpDownType: !l 1
+        ScrollUpDownTypeHighJump: !l 0
+        ScrollUpDownTypeVineMove: !l 0
+        ScrollUpDownTypeWoenderInWater: !l 0
+        ScrollUpDownTypeWonder: !l 0
+        scrollVboundaryDOWN: -1.50000
+        scrollVboundaryDOWNVineMove: -1.50000
+        scrollVboundaryDOWNWaterWonder: -1.50000
+        scrollVboundaryDOWNhighJump: -1.50000
+        scrollVboundaryDOWNwonder: -1.50000
+        scrollVboundaryUP: 4.00000
+        scrollVboundaryUPVineMove: 4.00000
+        scrollVboundaryUPWaterWonder: 4.00000
+        scrollVboundaryUPhighJump: 4.00000
+        scrollVboundaryUPwonder: 4.00000
+        validSeamlessNextGoto: false
+      Gyaml: CameraArea
+      Hash: !ul 12527201447038822052
+      Layer: PlayArea1
+      Name: Course001_Main.muunt/obj11
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 400.50000
+        - 15.50000
+        - 1.00000
+      Translate:
+        - 5.50000
+        - 0.50000
+        - 0.00000
+    - AreaHash: !u 2992145499
+      Gyaml: BlockRengaLight
+      Hash: !ul 13261139512070422632
+      Layer: PlayArea1
+      Name: Course001_Main.muunt/obj945
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 8.50000
+        - 3.50000
+        - 0.00000
+    - AreaHash: !u 2992145499
+      Dynamic:
+        ChildActorSelectName: ItemMushroomOrCoinYellow_All
+        ChildCreateAwaFlowerMoveDir: !l 0
+        DirCheckFrame: !l 3
+        InitItemMoveDir: !l 0
+        IsHiddenEffect: false
+        IsNoScatter: false
+        IsSetSignal: false
+      Gyaml: BlockHatena
+      Hash: !ul 13261139512070422633
+      Layer: PlayArea1
+      Name: Course001_Main.muunt/obj946
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 9.50000
+        - 3.50000
+        - 0.00000
+    - AreaHash: !u 2992145499
+      Gyaml: BlockRengaLight
+      Hash: !ul 13261139512070422634
+      Layer: PlayArea1
+      Name: Course001_Main.muunt/obj945
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 10.50000
+        - 3.50000
+        - 0.00000
+    - AreaHash: !u 2992145499
+      Dynamic: {InitDir: !l 1, IsEnableRare: false, MapAppearType: !l 0}
+      Gyaml: EnemyKuribo
+      Hash: !ul 13261139512070422635
+      Layer: PlayArea1
+      Name: Course001_Main.muunt/obj947
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 35.00000
+        - 10.00000
+        - 0.00000
+    - AreaHash: !u 2992145499
+      Dynamic: {ExportedScaleX: 1.00000, ExportedScaleY: 10.00000, ExportedScaleZ: 1.00000, GoalID: !l 0}
+      Gyaml: ObjectGoalPole
+      Hash: !ul 13261139512070422636
+      InLinks: {Reference: !l 1}
+      Layer: PlayArea1
+      Name: Course001_Main.muunt/obj1;GoalPoleDefault.muunt/obj0
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 50.00000
+        - 10.00000
+        - 0.00000
+    - AreaHash: !u 2992145499
+      Gyaml: AirWallRight
+      Hash: !ul 13261139512070422639
+      InLinks: {Delete: !l 1}
+      Layer: PlayArea1
+      Name: Course001_Main.muunt/obj1;GoalPoleDefault.muunt/obj3
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 50.00000
+        - 1.00000
+      Translate:
+        - 52.50000
+        - 2.00000
+        - 0.00000
+    - AreaHash: !u 2992145499
+      Gyaml: ObjectGoalPoleFort
+      Hash: !ul 13261139512070422637
+      InLinks: {Reference: !l 1}
+      Layer: PlayArea1
+      Name: Course001_Main.muunt/obj1;GoalPoleDefault.muunt/obj2
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 65.00000
+        - 10.00000
+        - 0.00000
+    - AreaHash: !u 2992145499
+      Dynamic: {DefaultEmotionType: !l 0, InitDir: !l 1, InitialVisible: true}
+      Gyaml: ObjectGoalDemoNPCPrince
+      Hash: !ul 13261139512070422640
+      InLinks: {Reference: !l 1}
+      Layer: PlayArea1
+      Name: Course001_Main.muunt/obj1;GoalPoleDefault.muunt/obj7
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 60.00000
+        - 10.00000
+        - 0.00000
+    - AreaHash: !u 2992145499
+      Dynamic: {DefaultEmotionType: !l 0, InitDir: !l 1, InitialVisible: true}
+      Gyaml: ObjectGoalDemoNpc
+      Hash: !ul 13261139512070422641
+      InLinks: {Reference: !l 1}
+      Layer: PlayArea1
+      Name: Course001_Main.muunt/obj1;GoalPoleDefault.muunt/obj4
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 65.00000
+        - 10.00000
+        - 0.00000
+    - AreaHash: !u 2992145499
+      Dynamic:
+        AfterReactionEmotion: !l 0
+        ColorIdx: !l -1
+        DefaultEmotion: !l 0
+        IsOnGravity: false
+        MessageList: TL005
+        SlideAnmReferneceSpeed: 2.60000
+      Gyaml: ObjectTalkingFlower
+      Hash: !ul 13261139512070422638
+      Layer: PlayArea1
+      Name: Course001_Main.muunt/obj948
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 17.50000
+        - -1.00000
+        - 0.00000
+    - AreaHash: !u 2992145499
+      Dynamic:
+        ChildActorSelectName: ItemMushroomOrFireFlower_All
+        ChildCreateAwaFlowerMoveDir: !l 0
+        DirCheckFrame: !l 3
+        InitItemMoveDir: !l 0
+        IsHiddenEffect: false
+        IsNoScatter: false
+        IsSetSignal: false
+      Gyaml: BlockHatena
+      Hash: !ul 13261139512070422642
+      Layer: PlayArea1
+      Name: Course001_Main.muunt/obj950
+      Rotate:
+        - 0.00000
+        - 0.00000
+        - 0.00000
+      Scale:
+        - 1.00000
+        - 1.00000
+        - 1.00000
+      Translate:
+        - 9.50000
+        - 7.00000
+        - 0.00000
+  BgUnits:
+    - BeltRails:
+        - IsClosed: true
+          Points:
+            - Translate:
+                - -12.00000
+                - -1.00000
+                - 2.00000
+            - Translate:
+                - 289.00000
+                - -1.00000
+                - 2.00000
+        - IsClosed: true
+          Points:
+            - Translate:
+                - 291.00000
+                - -1.00000
+                - 2.00000
+            - Translate:
+                - 345.00000
+                - -1.00000
+                - 2.00000
+        - IsClosed: true
+          Points:
+            - Translate:
+                - 347.00000
+                - -1.00000
+                - 2.00000
+            - Translate:
+                - 523.00000
+                - -1.00000
+                - 2.00000
+      ModelType: !l 0
+      SkinDivision: !l 0
+      Walls:
+        - ExternalRail:
+            IsClosed: true
+            Points:
+              - Translate:
+                  - -12.00000
+                  - -5.00000
+                  - 2.00000
+              - Translate:
+                  - -12.00000
+                  - -1.00000
+                  - 2.00000
+              - Translate:
+                  - 25.00000
+                  - -1.00000
+                  - 2.00000
+              - Translate:
+                  - 25.00000
+                  - 10.00000
+                  - 2.00000
+              - Translate:
+                  - 523.00000
+                  - 10.00000
+                  - 2.00000
+              - Translate:
+                  - 523.00000
+                  - -1.00000
+                  - 2.00000
+        - ExternalRail:
+            IsClosed: true
+            Points:
+              - Translate:
+                  - 15.00000
+                  - 5.00000
+                  - 2.00000
+              - Translate:
+                  - 15.00000
+                  - 15.00000
+                  - 2.00000
+              - Translate:
+                  - 20.00000
+                  - 15.00000
+                  - 2.00000
+              - Translate:
+                  - 20.00000
+                  - 5.00000
+                  - 2.00000
+  RootAreaHash: !u 2992145499
+  Links:
+    - {Dst: !ul 13261139512070422636, Name: Reference, Src: !ul 13261139512070422637}
+    - {Dst: !ul 10101701342416998777, Name: Reference, Src: !ul 13261139512070422636}
+    - {Dst: !ul 13261139512070422639, Name: Delete, Src: !ul 13261139512070422636}
+    - {Dst: !ul 13261139512070422640, Name: Reference, Src: !ul 13261139512070422636}
+    - {Dst: !ul 13261139512070422641, Name: Reference, Src: !ul 13261139512070422636}
+    - {Dst: !ul 13261139512070422637, Name: Reference, Src: !ul 13261139512070422641}
+    - {Dst: !ul 10101701342416998777, Name: Reference, Src: !ul 13261139512070422641}
+  SimultaneousGroups:
+    - Actors:
+        - !ul 447022561336565633
+        - !ul 1838371640874832463
+        - !ul 2698573224031481450
+      Hash: !ul 18133469743524944773
+    - Actors:
+        - !ul 14703998384399003920
+        - !ul 4161162947658017699
+        - !ul 1657426774642629332
+        - !ul 15113511521149081215
+        - !ul 8107679113574346979
+        - !ul 13841796898978852031
+        - !ul 7291405845576456262
+      Hash: !ul 9246473325698018417
+    - Actors:
+        - !ul 12505663894843281582
+        - !ul 10589632887372096657
+      Hash: !ul 16653484588793675210
+    - Actors:
+        - !ul 260722475274847908
+        - !ul 16186268973873207104
+      Hash: !ul 3114887993877097307
+    - Actors:
+        - !ul 1448763255612232330
+        - !ul 15395294066693552103
+      Hash: !ul 7050364678412234418
+    - Actors:
+        - !ul 4031183373427725588
+        - !ul 10170877202823319113
+      Hash: !ul 17430444796240540176
+    - Actors:
+        - !ul 1215628593276885401
+        - !ul 10340425537660927569
+        - !ul 14129680878407975054
+      Hash: !ul 17289962622857944696
+    - Actors:
+        - !ul 21878791805547113
+        - !ul 6991871379536193062
+        - !ul 4925686784148939278
+        - !ul 731013905576647591
+        - !ul 7336632321225620174
+        - !ul 17034710863830207350
+        - !ul 3445995841429637138
+        - !ul 3662402934990418745
+        - !ul 1418890257818925343
+      Hash: !ul 13855169651833442161
+    - Actors:
+        - !ul 17606497706876604366
+        - !ul 12269161932167289432
+      Hash: !ul 15898490959258659645
+    - Actors:
+        - !ul 7082944001385516230
+        - !ul 15648156892444608307
+      Hash: !ul 8866822377913100868
+    - Actors:
+        - !ul 16709494369236712843
+        - !ul 324616174043539665
+      Hash: !ul 2331584442373296505
+    - Actors:
+        - !ul 9856244993378840910
+        - !ul 3838517067194252280
+      Hash: !ul 12522745230501562851
+    - Actors:
+        - !ul 13610468665236853708
+        - !ul 835750058969686458
+      Hash: !ul 12751028638839994999
+    - Actors:
+        - !ul 13046106465414815927
+        - !ul 15596291796424844705
+        - !ul 12748195651115777674
+        - !ul 9703902903961724264
+      Hash: !ul 17263041395051472226
+    - Actors:
+        - !ul 11000944291427917495
+        - !ul 11252999886964937425
+        - !ul 12765822786763054961
+      Hash: !ul 10309555728104353795
+    - Actors:
+        - !ul 7744652552743045677
+        - !ul 7659926612634081521
+        - !ul 9636664031227785251
+      Hash: !ul 4333644316354779981
+    - Actors:
+        - !ul 1567177730980630516
+        - !ul 3315691891951969078
+        - !ul 11480163994340450647
+        - !ul 2722724399115521563
+        - !ul 14324134617253661744
+        - !ul 5637455165120111824
+        - !ul 11511093815607797373
+      Hash: !ul 17412829782695427422
+    - Actors:
+        - !ul 15967782248864874171
+        - !ul 2749037556411737813
+      Hash: !ul 3211619291690750503
+    - Actors:
+        - !ul 8516189667802565329
+        - !ul 7149273158198547185
+        - !ul 10932293545412362437
+        - !ul 12843759112021102491
+        - !ul 17007762081995983050
+        - !ul 1296317436332180368
+        - !ul 1595027811429431786
+      Hash: !ul 14885446156333995899
+    - Actors:
+        - !ul 8959216922294849118
+        - !ul 4784643633635736390
+        - !ul 5279707018762815807
+        - !ul 16155787286964266954
+        - !ul 17679016632428315013
+        - !ul 16838667944065279572
+        - !ul 11651945653038212640
+      Hash: !ul 4213250972033274015
+    - Actors:
+        - !ul 16204605944853960257
+        - !ul 10453150694247107517
+      Hash: !ul 6167641522102005600
+  StageParam: Work/Stage/StageParam/Course001_Main.game__stage__StageParam.gyml
