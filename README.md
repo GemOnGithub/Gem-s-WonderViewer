@@ -4,6 +4,7 @@ Course Viewer for Mario Wonder
 # "How to Import my Yaml?"
 
 Select your Yaml by pressing "Select Yaml", and then Import it by clicking "Import"
+OR open your explorer, select your yaml and drag it onto the WonderViewer Window.
 
 # "What are the Camera Controls?"
 
